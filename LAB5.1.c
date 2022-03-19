@@ -11,14 +11,13 @@ int main()
 	d=&enbuyuk;
 	
 	printf("Kac sayi gireceksiniz ");
-	scanf("%d",&*c);
-	
+	scanf("%d",c);
+	d=dizi;
 	for(i=0;i<kacsayi;i++){
 		printf("Sayi giriniz ");
 		scanf("%d",&dizi[i]);
-		*d=dizi[0];
-		if(dizi[i]>dizi[0]){
-			*d=dizi[i];
+		if(dizi[i]>*d){
+			d=dizi+i;
 		}
 	}
 	printf("En buyuk sayi=%d ",*d);		
