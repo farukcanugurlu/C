@@ -3,8 +3,8 @@
 
 int main()
 {
-	int kacsayi,enbuyuk,i,dizi[100];
-	int *a= calloc(20,kacsayi);
+	int kacsayi,enbuyuk,i,dizi[100],*a;
+	a = (int *) calloc(20, kacsayi);
 	int *b,*c,*d;
 	
 	c=&kacsayi;
