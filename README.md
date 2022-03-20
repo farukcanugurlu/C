@@ -1,3 +1,0 @@
-# C
-
-by Farukcan Uğurlu

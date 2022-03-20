@@ -1,0 +1,3 @@
+# C (LAB İSİMLERİNDE KAYMA OLDU +1 KOYARAK İNCELEYİNİZ ÖRN LAB 5 (LAB6)
+
+by Farukcan Uğurlu
